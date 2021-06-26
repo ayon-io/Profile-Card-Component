@@ -19,7 +19,14 @@ body {
 }
 
 .container {
-    margin-top: 13rem;
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column!important;
+    min-height: 100vh!important;
+    display: flex!important;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .top-img {
